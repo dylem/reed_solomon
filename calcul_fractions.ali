@@ -1,0 +1,106 @@
+V "GNAT Lib v6"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK_05
+
+U calcul_fractions%b	calcul_fractions.adb	7d1d39e9 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gestion_fractions%s	gestion_fractions.adb	gestion_fractions.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20160115095757 3ffc8e18 ada%s
+D a-charac.ads		20160115095800 2d3ec45b ada.characters%s
+D a-chahan.ads		20160115095800 1601a50f ada.characters.handling%s
+D a-comlin.ads		20160115095758 ea62afbc ada.command_line%s
+D a-except.ads		20160115095759 291912d5 ada.exceptions%s
+D a-inteio.ads		20160115095800 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160115095800 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160115095757 119b8fb3 ada.streams%s
+D a-tags.ads		20160115095758 01f5e3ef ada.tags%s
+D a-textio.ads		20160115095758 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160115095757 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160115095759 f9eb8f06 ada.unchecked_conversion%s
+D calcul_fractions.adb	20161212152329 fd9f92ed calcul_fractions%b
+D gestion_fractions.ads	20161210144809 b2c7ddc7 gestion_fractions%s
+D interfac.ads		20160115095759 4be8ce1b interfaces%s
+D i-cstrea.ads		20160115095758 e53d8b8e interfaces.c_streams%s
+D system.ads		20160115095759 6326c08a system%s
+D s-crtl.ads		20160115095757 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160115095800 54135002 system.exception_table%s
+D s-ficobl.ads		20160115095800 078245e4 system.file_control_block%s
+D s-imgint.ads		20160115095758 02dbe0c2 system.img_int%s
+D s-parame.ads		20160115095759 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160115095759 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160115095759 14e1eb6c system.soft_links%s
+D s-stache.ads		20160115095759 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160115095800 09bd3940 system.standard_library%s
+D s-stoele.ads		20160115095759 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160115095759 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160115095759 9d58a4c0 system.unsigned_types%s
+D s-valint.ads		20160115095757 48a52a3f system.val_int%s
+D s-wchcon.ads		20160115095759 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 13|2r6 2r23 3r6 3r31 4r6 4r28 5r6 5r35
+X 2 a-charac.ads
+16K13*Characters 18e19 13|5r10 5r39
+X 3 a-chahan.ads
+36K24*Handling 159e28 13|5w21 5r50
+X 4 a-comlin.ads
+38K13*Command_Line 139e21 13|4w10 4r32
+41V13*Argument_Count{natural} 13|25s23 38s17 43s14
+48V13*Argument{string} 13|26s28 28s30 45s46 46s53 46s81 47s54 47s82 52s53
+. 53s54 53s82 56s53 56s81 58s62 60s62 65s28 66s54 67s55 70s61 72s62 74s62
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 13|3w10 3r35
+X 10 a-textio.ads
+49K13*Text_IO 471e16 13|2w10 2r27
+242U14*Put 13|31s17 39s17 113s17
+263U14*Put_Line 13|79s25 85s17 90s25 103s25 108s17
+X 13 calcul_fractions.adb
+7U11*Calcul_Fractions 7b11 119l5 119t21
+9X9 PARAMETRE_INCORRECT 32r23 40r23 80r31 91r31 104r31 109r23
+11V18 Est_Une_Operation{boolean} 11b18 11>36 14l13 14t30 26s10 45s28 107s16
+11e36 C{character} 13r24 13r35 13r46 13r57 13r68 13r79
+16r9 F{14|3R14} 46m33 52m33 56m33 70m41 84r39 96m29 96r34 97m29 97r34 98m29
+. 98r34 99m29 99r34 100m29 100r34 115r21
+17r9 F2{14|3R14} 47m33 53m33 60m41 74m41 84r80 96r38 97r38 98r38 99r38
+18i9 Int{integer} 58m41 66m33 72m41 89r20 100r39 101m29 101r41 113r35
+19i9 Int2{integer} 67m33 89r31 101r46
+20e9 Operation{character} 27r12 28m17 57r36 71r36 84r17 84r59 88r12 95r14
+. 107r34 112r12
+21i9 Operation_Position{natural} 29m17 51r28 55r31 69r31
+25i13 I{integer} 26r37 28r39 29r39
+X 14 gestion_fractions.ads
+1K9*Gestion_Fractions 13|1w6 1r29 14|23e22
+3R14*T_Fraction 13|16r13 17r14 14|6e19
+5i17*Den{integer} 13|84r42 84r83
+8X9*DIV_PAR_ZERO 13|86r23
+11U19*Put 13|115s17
+13V18*PGCD{positive} 13|101s36
+15V19*"+"{3R14} 13|96s36
+16V19*"-"{3R14} 13|97s36
+18V19*"*"{3R14} 13|98s36
+19V19*"/"{3R14} 13|99s36
+20V19*"**"{3R14} 13|100s36
+

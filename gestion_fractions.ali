@@ -1,0 +1,118 @@
+V "GNAT Lib v6"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gestion_fractions%b	gestion_fractions.adb	b66c8a6c NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U gestion_fractions%s	gestion_fractions.ads	b2c7ddc7 EE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20160115095757 3ffc8e18 ada%s
+D a-except.ads		20160115095759 291912d5 ada.exceptions%s
+D a-inteio.ads		20160115095800 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160115095800 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160115095757 119b8fb3 ada.streams%s
+D a-tags.ads		20160115095758 01f5e3ef ada.tags%s
+D a-textio.ads		20160115095758 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160115095757 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160115095759 f9eb8f06 ada.unchecked_conversion%s
+D gestion_fractions.ads	20161210144809 b2c7ddc7 gestion_fractions%s
+D gestion_fractions.adb	20161210145015 b736f8c6 gestion_fractions%b
+D interfac.ads		20160115095759 4be8ce1b interfaces%s
+D i-cstrea.ads		20160115095758 e53d8b8e interfaces.c_streams%s
+D system.ads		20160115095759 6326c08a system%s
+D s-conca5.ads		20160115095757 875e432e system.concat_5%s
+D s-crtl.ads		20160115095757 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160115095800 54135002 system.exception_table%s
+D s-ficobl.ads		20160115095800 078245e4 system.file_control_block%s
+D s-imgint.ads		20160115095758 02dbe0c2 system.img_int%s
+D s-parame.ads		20160115095759 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160115095759 14e1eb6c system.soft_links%s
+D s-stache.ads		20160115095759 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160115095800 09bd3940 system.standard_library%s
+D s-stoele.ads		20160115095759 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160115095759 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160115095759 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20160115095759 1b7d22d2 system.wch_con%s
+D text_io.ads		20160115095759 45d626c9 text_io%s
+X 1 ada.ads
+16K9*Ada 19e8 11|2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 11|2w10 2r35
+X 7 a-textio.ads
+169U14*Skip_Line 11|18s33
+242U14*Put 11|25s25 27s25
+263U14*Put_Line 11|11s25 17s33
+X 8 a-tiinio.ads
+56U14*Get 11|8s17[3|18] 9s17[3|18]
+X 10 gestion_fractions.ads
+1K9*Gestion_Fractions 23l5 23e22 11|4b14 110l5 110t22
+3R14*T_Fraction 6e19 10r31 11r30 14r33 14r52 15r29 15r49 15r68 16r29 16r49
+. 16r68 17r29 17r48 18r29 18r49 18r68 19r29 19r49 19r68 20r30 20r65 11|6r31
+. 22r30 51r33 51r52 71r29 71r49 71r68 76r29 76r49 76r68 80r29 80r48 85r29
+. 85r49 85r68 90r29 90r49 90r68 99r30 99r65 100r24
+4i17*Num{integer} 11|8m23 25r45 27r51 54r22 57r40 58r37 59r25 60r41 61r37
+. 62r25 63r41 65r40 68r27 73r36 73r54 78r33 82r28 87r36 87r45 92r23 96r40
+5i17*Den{integer} 11|9m23 10r22 24r22 27r81 56r25 57r48 58r54 59r39 60r49
+. 61r54 63r48 65r47 68r41 73r45 73r62 73r69 73r78 78r41 82r35 87r52 87r61
+. 96r32
+8X9*DIV_PAR_ZERO 11|12r31 93r31
+10U19*Get 10<23 11|6b19 19s33 20l13 20t16
+10r23 F{3R14} 11|6b23 8m21 8r21 9m21 9r21 10r20 19m37
+11U19*Put 11>23 11|22b19 29l13 29t16
+11r23 F{3R14} 11|22b23 24r20 25r43 27r49 27r79
+13V18*PGCD{positive} 13>23 13>40 11|31b18 37s32 49l13 49t17 57s33 60s33 63s33
+. 65s33
+13i23 A{positive} 11|31b23 32r32
+13i40 B{positive} 11|31b40 33r32
+14V18*Reduire{3R14} 14>26 11|51b18 69l13 69t20 73s24 87s24
+14r26 F{3R14} 11|51b26 54r20 56r23 57r38 57r46 58r35 58r52 59r23 59r37 60r39
+. 60r47 61r35 61r52 62r23 63r39 63r46 65r38 65r45 68r25 68r39
+15V19*"+"{3R14} 15>22 15>41 11|71b19 74l14 74t16 78s26
+15r22 F{3R14} 11|71b22 73r34 73r60 73r67
+15r41 F2{3R14} 11|71b41 73r42 73r51 73r75
+16V19*"-"{3R14} 16>22 16>41 11|76b19 79l14 79t16
+16r22 F{3R14} 11|76b22 78r24
+16r41 F2{3R14} 11|76b41 78r30 78r38
+17V19*"-"{3R14} 17>22 11|80b19 83l14 83t16
+17r22 F{3R14} 11|80b22 82r26 82r33
+18V19*"*"{3R14} 18>22 18>41 11|85b19 88l14 88t16 96s26 103s38
+18r22 F{3R14} 11|85b22 87r34 87r50
+18r41 F2{3R14} 11|85b41 87r42 87r58
+19V19*"/"{3R14} 19>22 19>41 11|90b19 97l14 97t16
+19r22 F{3R14} 11|90b22 96r24
+19r41 F2{3R14} 11|90b41 92r20 96r29 96r37
+20V19*"**"{3R14} 20>23 20>42 11|99b19 107l14 107t17
+20r23 F{3R14} 11|99b23 100r38 103r40
+20i42 p{natural} 11|99b42 102r31
+X 11 gestion_fractions.adb
+32i17 I{natural} 36r20 37r40 41r30 44m25
+33i17 J{natural} 36r24 37r37 41r36 44r30 45m25 48r24
+34i17 R{natural} 41m25 42r35 45r30
+52i17 Temp{natural} 57m25 58r44 58r61 60m25 61r44 61r61 63m25 65m25 68r33
+. 68r47
+100r17 Temp{10|3R14} 103m25 103r33 106r24
+102i21 I{integer}
+X 28 text_io.ads
+24K9*Text_IO=24:29 11|1w6 1r19
+

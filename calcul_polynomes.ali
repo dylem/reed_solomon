@@ -1,0 +1,120 @@
+V "GNAT Lib v6"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U calcul_polynomes%b	calcul_polynomes.adb	be18cb7a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gestion_fractions%s	gestion_fractions.adb	gestion_fractions.ali
+W gestion_polynomes%s	gestion_polynomes.adb	gestion_polynomes.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20160115095757 3ffc8e18 ada%s
+D a-charac.ads		20160115095800 2d3ec45b ada.characters%s
+D a-chahan.ads		20160115095800 1601a50f ada.characters.handling%s
+D a-comlin.ads		20160115095758 ea62afbc ada.command_line%s
+D a-except.ads		20160115095759 291912d5 ada.exceptions%s
+D a-inteio.ads		20160115095800 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160115095800 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160115095757 119b8fb3 ada.streams%s
+D a-tags.ads		20160115095758 01f5e3ef ada.tags%s
+D a-textio.ads		20160115095758 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160115095757 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160115095759 f9eb8f06 ada.unchecked_conversion%s
+D calcul_polynomes.adb	20161214095558 aa81b873 calcul_polynomes%b
+D gestion_fractions.ads	20161210144809 b2c7ddc7 gestion_fractions%s
+D gestion_polynomes.ads	20161214092002 941bd80d gestion_polynomes%s
+D interfac.ads		20160115095759 4be8ce1b interfaces%s
+D i-cstrea.ads		20160115095758 e53d8b8e interfaces.c_streams%s
+D system.ads		20160115095759 6326c08a system%s
+D s-crtl.ads		20160115095757 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160115095800 54135002 system.exception_table%s
+D s-ficobl.ads		20160115095800 078245e4 system.file_control_block%s
+D s-parame.ads		20160115095759 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160115095759 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160115095759 14e1eb6c system.soft_links%s
+D s-stache.ads		20160115095759 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160115095800 09bd3940 system.standard_library%s
+D s-stoele.ads		20160115095759 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160115095759 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160115095759 9d58a4c0 system.unsigned_types%s
+D s-valint.ads		20160115095757 48a52a3f system.val_int%s
+D s-wchcon.ads		20160115095759 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 13|3r6 3r23 4r6 4r31 5r6 5r28 6r6 6r35
+X 2 a-charac.ads
+16K13*Characters 18e19 13|6r10 6r39
+X 3 a-chahan.ads
+36K24*Handling 159e28 13|6w21 6r50
+X 4 a-comlin.ads
+38K13*Command_Line 139e21 13|5w10 5r32
+41V13*Argument_Count{natural} 13|27s23 47s26 50s19 56s38 56s83 58s37
+48V13*Argument{string} 13|28s28 30s30 41s38 41s66 51s47 51s75 56s29 56s74
+. 58s28
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 13|4w10 4r35
+X 10 a-textio.ads
+49K13*Text_IO 471e16 13|3w10 3r27
+242U14*Put 13|33s17
+263U14*Put_Line 13|70s25
+X 13 calcul_polynomes.adb
+8U11*Calcul_Polynomes 8b11 83l5 83t21
+9X9 PARAMETRE_INCORRECT 34r23 71r31 82r31
+11V18 Est_Une_Operation{boolean} 11b18 11>36 14l13 14t30 28s10
+11e36 C{character} 13r24 13r35 13r46 13r57 13r68 13r79 13r90
+16r9 P{15|7R14} 39m5 41m9 62m29 62r34 63m29 63r34 64m29 64r34 65m29 65r34
+. 66m29 66r40 67r39 68m29 77r21
+17r9 P2{15|7R14} 47m9 51m17 62r38 63r38 64r38 65r38 66r43
+18r9 F{14|3R14} 56m9 67m29 67r42 75r21
+19i9 N{15|5I17} 58m9 68r46
+20e9 Operation{character} 29r12 30m17 46r9 46r28 46r47 46r66 46r85 46r104
+. 55r12 61r10 74r12
+21i9 Operation_Position{natural} 31m17 39r20 40r15 47r43 48r14
+22i9 I{natural} 40r11 41r47 41r75 42m9 42r14 48m9 50r15 51r56 51r84 52m17
+. 52r22
+23i9 J{natural} 41r17 43m9 43r14 49m9 51r26 53m17 53r22
+27i13 I{integer} 28r37 30r39 31r39
+X 14 gestion_fractions.ads
+1K9*Gestion_Fractions 13|2w6 2r29 14|23e22
+3R14*T_Fraction 13|18r13 14|6e19
+11U19*Put 13|75s17
+X 15 gestion_polynomes.ads
+4K9*Gestion_Polynomes 13|1w6 1r29 15|24e22
+5I17*T_Degre{natural} 13|19r13
+6A14*T_Coeff(14|3R14)<integer>
+7R14*T_Polynome 13|16r13 17r14 15|9e19
+7i25*Degre{5I17} 13|39m11 47m16
+8a17*Coeff{6A14} 13|39m48 41m11 47m72 51m20
+12U19*Put 13|77s17
+15V19*"+"{7R14} 13|62s36
+16V19*"-"{7R14} 13|63s36
+17V19*"*"{7R14} 13|64s36
+18V19*"/"{7R14} 13|65s36
+20V18*Reste{7R14} 13|66s34
+21V18*Eval{14|3R14} 13|67s34
+22V18*Alloc_Polyn{7R14} 13|68s34
+

@@ -1,0 +1,139 @@
+V "GNAT Lib v6"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_LOOPS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U gestion_polynomes%b	gestion_polynomes.adb	147c724f NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U gestion_polynomes%s	gestion_polynomes.ads	26dc05ca EE NE OO PK
+W gestion_fractions%s	gestion_fractions.adb	gestion_fractions.ali
+
+D ada.ads		20160115095757 3ffc8e18 ada%s
+D a-except.ads		20160115095759 291912d5 ada.exceptions%s
+D a-inteio.ads		20160115095800 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160115095800 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160115095757 119b8fb3 ada.streams%s
+D a-tags.ads		20160115095758 01f5e3ef ada.tags%s
+D a-textio.ads		20160115095758 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160115095757 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160115095759 f9eb8f06 ada.unchecked_conversion%s
+D gestion_fractions.ads	20161210144809 b2c7ddc7 gestion_fractions%s
+D gestion_polynomes.ads	20161214092002 941bd80d gestion_polynomes%s
+D gestion_polynomes.adb	20161214092242 33fa052f gestion_polynomes%b
+D interfac.ads		20160115095759 4be8ce1b interfaces%s
+D i-cstrea.ads		20160115095758 e53d8b8e interfaces.c_streams%s
+D system.ads		20160115095759 6326c08a system%s
+D s-conca3.ads		20160115095800 0b705ca5 system.concat_3%s
+D s-crtl.ads		20160115095757 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160115095800 54135002 system.exception_table%s
+D s-ficobl.ads		20160115095800 078245e4 system.file_control_block%s
+D s-imgint.ads		20160115095758 02dbe0c2 system.img_int%s
+D s-parame.ads		20160115095759 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160115095759 14e1eb6c system.soft_links%s
+D s-stache.ads		20160115095759 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160115095800 09bd3940 system.standard_library%s
+D s-stoele.ads		20160115095759 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160115095759 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160115095759 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20160115095759 1b7d22d2 system.wch_con%s
+D text_io.ads		20160115095759 45d626c9 text_io%s
+X 1 ada.ads
+16K9*Ada 19e8 12|2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|2w10 2r35
+X 7 a-textio.ads
+242U14*Put 12|9s25 22s41 25s41
+X 10 gestion_fractions.ads
+1K9*Gestion_Fractions 23e22 11|2w6 2r29
+3R14*T_Fraction 6e19 11|6r52 21r49 21r68 12|125r49 125r68
+4i17*Num{integer} 12|17r44 36r39 43r53
+10U19*Get 12|10s25
+11U19*Put 12|19s41
+15V19*"+"{3R14} 12|66s63 90s76 136s35
+17V19*"-"{3R14} 12|79s42
+18V19*"*"{3R14} 12|90s90 136s40
+19V19*"/"{3R14} 12|109s60 115s58
+X 11 gestion_polynomes.ads
+4K9*Gestion_Polynomes 24l5 24e22 12|4b14 147l5 147t22
+5I17*T_Degre{natural} 6r31 7r33 11r54 22r34 12|6r54 139r35
+6A14*T_Coeff(10|3R14)<integer> 8r25
+7R14*T_Polynome 7d25 9e19 11r31 12r30 13r39 13r58 15r29 15r49 15r68 16r29
+. 16r49 16r68 17r29 17r49 17r68 18r29 18r49 18r68 20r31 20r51 20r70 21r30
+. 22r50 12|6r31 14r30 31r39 31r58 32r26 57r29 57r49 57r68 58r26 75r29 75r49
+. 75r68 76r24 85r29 85r49 85r68 86r26 98r29 98r49 98r68 99r21 100r21 101r23
+. 102r24 120r31 120r51 120r70 125r30 126r26 139r51 140r26
+7i25*Degre{5I17} 8r38 12|24r42 43r32 44m33 47m36 47r47 58r39 60r22 60r33
+. 86m41 86r52 86r63 104r24 104r37 105m33 106r28 107m31 107r44 114m23 114r37
+. 114r50 115r27 115r51 115r76 128r22 132m28 132r39 140m41
+8a17*Coeff{6A14} 12|8r28 10m31 16r28 17r35 18r43 19r47 35r36 36r30 43r44
+. 44m45 47m58 49r41 50m40 50r54 64r28 65r36 66m40 66r54 66r68 68m40 68r54
+. 78r31 79m30 79r48 86m70 88r28 89r37 90m40 90r63 90r81 90r95 105m45 107m51
+. 108r38 109m35 109r51 109r67 114m58 115m19 115r41 115r65 129r34 132m50 133r33
+. 134m32 134r46 136r26 140m53 142m24
+11U19*Get 11<23 11>43 12|6b19 12l13 12t16
+11r23 P{7R14} 12|6b23 8r26 10m29 10r29
+11i43 Degre{5I17} 12|6b43
+12U19*Put 12>23 12|14b19 29l13 29t16
+12r23 P{7R14} 12|14b23 16r26 17r33 18r41 19r45 24r40
+13V18*Reduire_Degre{7R14} 13>32 12|31b18 55l13 55t26 72s24 101s37 102s38
+13r32 P{7R14} 12|31b32 35r34 36r28 43r30 43r42 47r45 50r52 54r24
+15V19*"+"{7R14} 15>22 15>41 12|57b19 61s35 73l14 73t16 82s26 117s26
+15r22 P{7R14} 12|57b22 58r37 60r20 61r37 64r26 66r52 68r52
+15r41 P2{7R14} 12|57b41 60r30 61r32 65r33 66r65
+16V19*"-"{7R14} 16>22 16>41 12|75b19 83l14 83t16 116s26 122s26
+16r22 P{7R14} 12|75b22 82r24
+16r41 P2{7R14} 12|75b41 76r38
+17V19*"*"{7R14} 17>22 17>41 12|85b19 95l14 95t16 116s31 122s38
+17r22 P{7R14} 12|85b22 86r50 88r26 90r79
+17r41 P2{7R14} 12|85b41 86r60 89r34 90r92
+18V19*"/"{7R14} 18>22 18>41 12|98b19 117s31 118l14 118t16 122s32
+18r22 P{7R14} 12|98b22 101r51
+18r41 P2{7R14} 12|98b41 102r52
+20V18*Reste{7R14} 20>24 20>43 12|120b18 123l13 123t18
+20r24 P{7R14} 12|120b24 122r24 122r30
+20r43 P2{7R14} 12|120b43 122r34 122r40
+21V18*Eval{10|3R14} 21>23 21>42 12|125b18 136s42 137l13 137t17
+21r23 P{7R14} 12|125b23 128r20 129r32 132r37 134r44 136r24
+21r42 F{10|3R14} 12|125b42 136r38 136r55
+22V18*Alloc_Polyn{7R14} 22>30 12|139b18 144l13 144t24
+22i30 N{5I17} 12|139b31 140r50 142r30
+X 12 gestion_polynomes.adb
+8i21 I{integer} 9r51 10r37
+16i21 I{integer} 17r41 18r49 18r66 19r53 21r36 22r68 24r36
+32r17 Result{11|7R14} 47m25 49r34 50m33 52r32
+33i17 N{natural} 37m33 37r38 43r21 46r20 47r55
+35i21 J{integer} 36r36
+49i29 I{integer} 50r46 50r60
+58r17 Result{11|7R14} 66m33 68m33 72r38
+64i21 I{integer} 65r28 66r46 66r60 66r74 68r46 68r60
+76r17 Temp{11|7R14} 78r26 79m25 79r43 82r28
+78i21 I{integer} 79r36 79r54
+86r17 Result{11|7R14} 90m33 90r56 94r24
+88i21 I{integer} 90r46 90r69 90r87
+89i29 J{integer} 90r50 90r73 90r101
+99r17 Q{11|7R14} 107m25 109m33 111r32 114m17 115m17 115r25 116r29 117r24
+100r17 R{11|7R14} 116m17 117r29
+101r17 P_R{11|7R14} 104r20 107r40 108r34 109r47 114r33 115r37 115r47 116r22
+102r17 P_R2{11|7R14} 104r32 106r23 109r62 114r45 115r60 115r71 116r33 117r33
+108i29 I{integer} 109r41 109r57
+126r17 Result{11|7R14} 132m17 133r26 134m25 136r47
+133i21 I{integer} 134r38 134r52
+140r17 Result{11|7R14} 142m17 143r24
+X 29 text_io.ads
+24K9*Text_IO=24:29 12|1w6 1r19
+
